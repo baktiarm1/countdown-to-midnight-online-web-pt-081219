@@ -3,7 +3,9 @@
 def countdown(int)
   
   while int > 0 
-    def countdown
+    def countdown_with_sleep(int)
+      sleep(int)
+    end
   
     puts "#{int} SECOND(S)!"
     int-=1
